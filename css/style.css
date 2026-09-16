@@ -34,11 +34,11 @@ body {
 
 .content b {
     display: block;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .content p {
-    font-size: 15px;
+    font-size: 16px;
     padding: 20px;
 }
 
@@ -63,4 +63,29 @@ button {
     font-weight: bold;
     display: inline-block;
     margin-top: 20px;
+}
+
+.about {
+    min-height: 10vh;
+    box-sizing: border-box;
+    
+    padding: 50px;
+    background-color: #2f2a48;
+    color: white;
+
+    text-align: center;
+    align-items: left;
+}
+.about-container{
+    max-width: auto;
+    margin-top: 0 auto;
+    
+    display: grid;
+    /*adding grid-template-columns to create a 4-column layout*/
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
