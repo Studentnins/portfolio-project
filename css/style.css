@@ -108,6 +108,25 @@ button {
     font-size: 13px;
 }
 
+.card {
+    min-height: 10vh;
+    box-sizing: border-box;
+    
+    padding: 50px;
+    background-color: #c4c3c6;
+    color: white;
+
+    text-align: center;
+    align-items: left;
+}
+
+.card-container {
+ max-width: auto;
+ display: grid;
+
+
+    
+}
 html {
     scroll-behavior: smooth;
 }
