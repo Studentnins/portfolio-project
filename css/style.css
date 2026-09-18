@@ -94,7 +94,7 @@ button {
     gap: 30px;
 }
 
-.about-box h3 {
+.about-text h3 {
     text-align: left;
     align-items: 30px;
     border: 4px #354482;
@@ -102,7 +102,7 @@ button {
 
 }
 
-.about-box p {
+.about-text p {
     text-align: left;
     align-items: 30px;
     font-size: 13px;
@@ -113,20 +113,41 @@ button {
     box-sizing: border-box;
     
     padding: 50px;
-    background-color: #c4c3c6;
+    background-color: #504874;
     color: white;
 
     text-align: center;
     align-items: left;
 }
 
-.card-container {
- max-width: auto;
- display: grid;
-
-
-    
+.card-text h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
+
+.card-text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+
+.card-container {
+    max-width: 90%;
+    margin: 0 auto; /* make it straight */
+    
+    display: grid; /* to adapt color */
+    gap: 30px;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+
+
+}
+
 html {
     scroll-behavior: smooth;
 }
