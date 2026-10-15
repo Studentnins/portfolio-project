@@ -157,6 +157,71 @@ button {
     gap: 30px;
 }
 
+/* ===== ACTIVITY 4: Projects Section Styles ===== */
+.projects {
+    padding: 50px;
+    background-color: #b6b6e0a4;
+}
+
+.projects h2 {
+    color: #2f2a48;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.projects-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.project-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    color: #2f2a48;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.tech-stack {
+    display: inline-block;
+    background: #b6b6e0;
+    color: #2f2a48;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    display: inline-block;
+    color: #354482;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
 html {
     scroll-behavior: smooth;
 }
