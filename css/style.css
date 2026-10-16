@@ -538,6 +538,14 @@ tbody tr:last-child td {
   }
 }
 
+@media (max-width: 600px) {
+  .skill-grid {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    gap: 20px;
+  }
+}
+
 html, body {
     margin: 0;
     padding: 0;
