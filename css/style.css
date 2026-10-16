@@ -375,10 +375,11 @@ tbody tr:last-child td {
     border-radius: 10px;
 }
 
-/* ACTIVITY 7: Contact Form Base Styling */
+
+/* ACTIVITY 7: Contact Form Base Styling ====================== */
 .contact {
     padding: 60px 20px;
-    background-color: #2f2a48;
+    background-color: #3c2f7b;
     color: white;
 }
 
@@ -395,10 +396,11 @@ tbody tr:last-child td {
 }
 
 .contact-form {
-    max-width: 600px;
+    max-width: 450px; 
+    width: 90%; 
+    padding: 25px 20px;
     margin: 0 auto;
     background: white;
-    padding: 35px 40px;
     border-radius: 16px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
@@ -469,6 +471,17 @@ tbody tr:last-child td {
 
 .send-btn:active {
     transform: translateY(0);
+}
+
+.form-group input,
+.form-group textarea {
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #47568b;
 }
 
 html, body {
