@@ -423,6 +423,12 @@ tbody tr:last-child td {
     font-size: 15px;
     font-family: inherit;
 }
+.form-group input:focus {
+    outline: none;
+    border-color: #47568b;
+    box-shadow: 0 0 0 3px rgba(71, 86, 139, 0.2);
+    transition: all 0.3s ease;
+}
 
 html, body {
     margin: 0;
