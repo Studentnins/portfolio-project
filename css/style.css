@@ -478,6 +478,7 @@ tbody tr:last-child td {
 
 /* ===== FIX: Mobile Layout Improvements ===== */
 @media (max-width: 600px) {
+
   /* 1. Navigation — spread out properly */
   .nav-container {
     flex-direction: column;
@@ -495,6 +496,29 @@ tbody tr:last-child td {
   .nav-link {
     padding: 6px 8px;
     font-size: 13px;
+  }
+
+  /* 2. Home section — stack perfectly */
+  .content {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .text h1 {
+    font-size: 1.5rem;
+  }
+
+  .text b,
+  .text p {
+    font-size: 14px;
+    padding: 10px;
   }
 }
 
