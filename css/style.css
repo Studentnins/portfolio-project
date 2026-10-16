@@ -448,6 +448,29 @@ tbody tr:last-child td {
     box-shadow: 0 0 0 3px rgba(71, 86, 139, 0.2);
 }
 
+.send-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #47568b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.send-btn:hover {
+    background-color: #354482;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.send-btn:active {
+    transform: translateY(0);
+}
+
 html, body {
     margin: 0;
     padding: 0;
