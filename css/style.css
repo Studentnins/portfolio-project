@@ -255,19 +255,56 @@ button {
     text-decoration: none;
 }
 
-/* ===== ACTIVITY 5: Education & Experience Table ===== */
-.education{
+/* ===== ACTIVITY 5: Education & Experience Table ================ */
+.education {
     padding: 50px 20px;
-    background-color: #7a85b9;
+    background-color: #354482;
     color: white;
 }
 
 .education h2 {
-    color: #2f2a48;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
 
+.table-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
 
+th {
+    background-color: #2f2a48;
+    padding: 15px 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 3px solid #b6b6e0;
+}
 
+td {
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 12px 10px;
+        font-size: 14px;
+    }
 }
 
 html {
