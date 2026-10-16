@@ -430,6 +430,24 @@ tbody tr:last-child td {
     transition: all 0.3s ease;
 }
 
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: inherit;
+    min-height: 120px;
+    resize: vertical;
+    transition: all 0.3s ease;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color: #47568b;
+    box-shadow: 0 0 0 3px rgba(71, 86, 139, 0.2);
+}
+
 html, body {
     margin: 0;
     padding: 0;
