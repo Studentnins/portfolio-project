@@ -319,6 +319,49 @@ tbody tr:last-child td {
     }
 }
 
-html {
+/* ===== ACTIVITY 6: Navigation Menu ===== */
+.main-nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #2f2a48;
+    z-index: 1000;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 18px 14px;
+}
+
+html, body {
     scroll-behavior: smooth;
+    margin: 0; 
+    padding: 0;
 }
