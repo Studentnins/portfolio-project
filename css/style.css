@@ -159,7 +159,7 @@ button {
 
 /* ===== ACTIVITY 4: Projects Section Styles ===== */
 .projects {
-    padding: 50px;
+    padding: 10px 30px;
     background-color: #b6b6e0a4;
 }
 
@@ -171,19 +171,22 @@ button {
 }
 
 .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
 }
 
 .project-card {
     background: white;
-    padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
+    width: 320px;
+    overflow: hidden;
+    padding: 20px;
+    transition: transform 0.3s ease;
 }
 
 .project-card:hover {
