@@ -375,6 +375,55 @@ tbody tr:last-child td {
     border-radius: 10px;
 }
 
+/* ACTIVITY 7: Contact Form Base Styling */
+.contact {
+    padding: 60px 20px;
+    background-color: #2f2a48;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-subtitle {
+    text-align: center;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 35px 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    color: #2f2a48;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: inherit;
+}
+
 html, body {
     margin: 0;
     padding: 0;
