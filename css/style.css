@@ -522,6 +522,7 @@ tbody tr:last-child td {
   }
 }
 
+/* ===== ACTIVITY 8: About Section Responsive ===== */
 @media (max-width: 600px) {
   .about-container {
     grid-template-columns: 1fr;
@@ -538,11 +539,24 @@ tbody tr:last-child td {
   }
 }
 
+/* ===== ACTIVITY 8: Skills Section Responsive ===== */
 @media (max-width: 600px) {
   .skill-grid {
     grid-template-columns: 1fr;
     padding: 15px;
     gap: 20px;
+  }
+}
+
+/* ===== ACTIVITY 8: Education Table Responsive ===== */
+@media (max-width: 600px) {
+  th, td {
+    padding: 12px 10px;
+    font-size: 13px;
+  }
+
+  .table-container {
+    border-radius: 10px;
   }
 }
 
