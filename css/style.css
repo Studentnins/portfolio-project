@@ -560,6 +560,18 @@ tbody tr:last-child td {
   }
 }
 
+/* ===== ACTIVITY 8: Contact Form Responsive ===== */
+@media (max-width: 600px) {
+  .contact-form {
+    padding: 20px 15px;
+    max-width: 100%;
+  }
+
+  .contact h2 {
+    font-size: 1.5rem;
+  }
+}
+
 html, body {
     margin: 0;
     padding: 0;
